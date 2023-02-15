@@ -165,18 +165,17 @@ a:hover {
 }
 
 .content-team-box {
-  max-width: 1110px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 94px;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .card {
-  display: inline-block;
-  max-width: 365px;
-  height: 283px;
-  margin-top: 32px;
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
 .card-bert {
